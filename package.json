@@ -1,6 +1,6 @@
 {
-  "homepage": "https://pro7prabhakar.github.io/tic-tac-toe",
-  "name": "restaurant_app",
+  "homepage": "https://pro7prabhakar.github.io/weather-app",
+  "name": "weather_app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
