@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import Resturant from './component/Basics/Resturant';
+// import UseState from './component/Hooks/useState';
+// import UseEffect from './component/Hooks/useEffect';
+// import UseReducer from './component/Hooks/useReducer';
+// import Todo from './component/todoReact/todo';
+// import ErpHome from './component/ERP/erpHome';
+// import Temper from './component/Weather/temper';
+// import LoginSignup from './component/LoginSignup/LoginSignup';
+// import MultipleInputs from './component/Forms/multipleInputs';
+// import UseRef2 from './component/Hooks/useRef2';
+import TicTacToe from './component/TIC_TAC_TOE/TicTacToe';
+// import ProfileCard from './component/UserProfileCard/ProfileCard';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  return <TicTacToe/>;
+};
 
 export default App;
